@@ -6,8 +6,31 @@
 
 html {
   box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  line-height: 1.5;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  width: 30%;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  align-self: center;
 }
